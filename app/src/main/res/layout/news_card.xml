@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="33dp"
+   android:layout_margin="33dp"
+    android:id="@+id/cardid"
+
+    app:strokeWidth="0.5dp"
+    app:strokeColor="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#23FFDABB"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Head Line"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:background="#6DFFDFC4"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="textStart"
+        android:id="@+id/heading_text"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description kjvkjsv vkjaeilruvliae ahdrfyaerlblk nsjdnvkjdnvjabrfbkhabrv"
+            android:textSize="18dp"
+            android:textAlignment="textStart"
+            android:textColor="#3d3d3d"
+            android:layout_weight="1"
+            android:inputType="textMultiLine"
+            android:maxLines="6"
+            android:id="@+id/description_text"/>
+        <ImageView
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:id="@+id/img"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background" />
+
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="authorname"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:id="@+id/author_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Published at: 23-03-2223"
+            android:textSize="15dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:id="@+id/date"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

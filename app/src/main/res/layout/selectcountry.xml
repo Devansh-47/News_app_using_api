@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_cancel_24"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/cancel_btn"
+        android:layout_gravity="end"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-5dp"
+        />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:text="Select Country"
+            android:textSize="22dp"
+            android:textColor="#3d3d3d"
+            />
+
+
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/rg">
+
+                    <RadioButton
+                        android:id="@+id/in"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:text="India" />
+
+                    <RadioButton
+                        android:id="@+id/ae"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UAE" />
+
+                    <RadioButton
+                        android:id="@+id/ar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Argentina" />
+                    <RadioButton
+                        android:id="@+id/at"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Austria" />
+                    <RadioButton
+                        android:id="@+id/be"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Belgium" />
+
+
+                    <RadioButton
+                        android:id="@+id/br"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Brazil" />
+
+                    <RadioButton
+                        android:id="@+id/ca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Canada" />
+
+                    <RadioButton
+                        android:id="@+id/ch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Switzerland" />
+                    <RadioButton
+                        android:id="@+id/ve"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venezuela" />
+                    <RadioButton
+                        android:id="@+id/us"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usa" />
+
+
+
+        </RadioGroup>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:backgroundTint="#3d3d3d"
+    android:text="Appy"
+    android:id="@+id/apply_btn"
+    android:layout_gravity="center"
+    />
+</LinearLayout>
+</FrameLayout>
